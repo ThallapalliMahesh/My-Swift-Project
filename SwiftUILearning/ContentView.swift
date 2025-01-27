@@ -12,8 +12,20 @@ struct ContentView: View {
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+//                .foregroundStyle(.tint)
+                .font(.largeTitle)
+                .foregroundColor(.pink)
+            
+//            Text("Hello, world!. I am learning the SwiftUI. I am really enjoying it while Learning this SwiftUI!")
+////                .font(.title)
+////                .fontWeight(.bold)
+////                .underline()
+//                .underline(true,color: .red)
+//                .font(.system(size: 25,weight: .semibold,design: .serif))
+//                .multilineTextAlignment(.center)
+//                .baselineOffset(-50)
+//                .kerning(20)
+//                .foregroundColor(.blue)
         }
         .padding()
     }

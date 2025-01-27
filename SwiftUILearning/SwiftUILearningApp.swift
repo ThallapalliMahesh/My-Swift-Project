@@ -11,7 +11,10 @@ import SwiftUI
 struct SwiftUILearningApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+//            AddingText()
+//            AddingShapes()
+            AddingColors()
         }
     }
 }
