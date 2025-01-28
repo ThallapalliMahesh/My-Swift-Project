@@ -9,21 +9,23 @@ import SwiftUI
 
 struct AddingText: View {
     var body: some View {
-//        Text("Hello, world!. I am learning the SwiftUI. I am really enjoying it while Learning this SwiftUI!".capitalized)
-//                .font(.title)
-//                .fontWeight(.bold)
-//                .underline()
-//            .underline(true,color: .red)
-//            .font(.system(size: 25,weight: .semibold,design: .serif))
-//            .baselineOffset(-50)
-//            .kerning(20)
-        Text("Hello, world!.")
-            .multilineTextAlignment(.center)
-            .foregroundColor(.pink)
-            .frame(width: 300,height: 100, alignment: .center)
-            .minimumScaleFactor(0.1)
-        
-    }
+            VStack {
+                Text("Hello, SwiftUI!")
+                    .font(.largeTitle)
+                    .foregroundColor(.blue)
+                    .padding()
+
+                Text("SwiftUI makes UI development!")
+                    .font(.title)
+                    .foregroundColor(.green)
+                    .padding()
+
+                Text("Let's build awesome apps together.")
+                    .font(.body)
+                    .foregroundColor(.purple)
+            }
+            .padding()
+        }
 }
 
 #Preview {
