@@ -14,7 +14,9 @@ struct SwiftUILearningApp: App {
 //            ContentView()
 //            AddingText()
 //            AddingShapes()
-            AddingColors()
+           // AddingColors()
+//            GradientsView()
+            SystemIconsView()
         }
     }
 }
